@@ -1,0 +1,92 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Ejecutar operacion multiplicacion",
+        "description": "",
+        "id": "realizar-una-operaciones-con-la-calculadora-de-windows;ejecutar-operacion-multiplicacion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7534031500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que Juan se encuentra en la calculadora de Windows",
+            "match": {
+              "location": "OperacionRestaDefinition.queJuanSeEncuentraEnLaCalculadoraDeWindows()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2783375200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Juan realiza la multiplicacion de 3 y 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 34
+                },
+                {
+                  "val": "7",
+                  "offset": 38
+                }
+              ],
+              "location": "OperacionRestaDefinition.juanRealizaLaMultiplicacionDeY(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106121700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el deberia de ver el resultado igual a 21",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 39
+                }
+              ],
+              "location": "OperacionRestaDefinition.elDeberiaDeVerElResultadoIgualA(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Main_Operaciones_Calculadora"
+          },
+          {
+            "name": "@ejecutarMultiplicacion"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar una operaciones con la calculadora de Windows",
+    "description": "",
+    "id": "realizar-una-operaciones-con-la-calculadora-de-windows",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/operaciones.feature",
+    "tags": [
+      {
+        "name": "@Main_Operaciones_Calculadora",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

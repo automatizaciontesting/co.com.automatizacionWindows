@@ -1,0 +1,9 @@
+co\com\automatizacionWindows\runners\RunnerRestar.class
+co\com\automatizacionWindows\steps\OperacionRestaSteps.class
+co\com\automatizacionWindows\runners\RunnerFeature.class
+co\com\automatizacionWindows\runners\RunnerFeature$EjecutarPrueba.class
+co\com\automatizacionWindows\utilidades\DriverManager.class
+co\com\automatizacionWindows\utilidades\Utilidades.class
+co\com\automatizacionWindows\definitions\OperacionRestaDefinition.class
+co\com\automatizacionWindows\runners\RunnerRestar$EjecutarPrueba.class
+co\com\automatizacionWindows\pageobjects\OperacionRestaPageObject.class
